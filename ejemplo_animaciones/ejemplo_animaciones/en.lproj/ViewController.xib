@@ -41,6 +41,7 @@
 						<string key="NSFrame">{{73, 50}, {82, 78}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="450432684"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -78,6 +79,7 @@
 						<string key="NSFrame">{{32, 246}, {72, 69}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -102,6 +104,7 @@
 						<string key="NSFrame">{{186, 114}, {72, 72}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView" ref="945682877"/>
 						<string key="NSReuseIdentifierKey">_NS:225</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -124,7 +127,7 @@
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
 				<reference key="NSSuperview"/>
 				<reference key="NSWindow"/>
-				<reference key="NSNextKeyView"/>
+				<reference key="NSNextKeyView" ref="915859936"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">10</int>
 					<object class="NSImage" key="NSImage">
@@ -4574,7 +4577,7 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">18</int>
+					<int key="connectionID">19</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -4610,8 +4613,8 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="945682877"/>
-							<reference ref="450432684"/>
 							<reference ref="915859936"/>
+							<reference ref="450432684"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -4646,13 +4649,32 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">19</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<object class="IBPartialClassDescription">
 					<string key="className">ViewController</string>
 					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="touchBall1:">id</string>
+						<string key="touchBall2:">id</string>
+						<string key="touchBall3:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="touchBall1:">
+							<string key="name">touchBall1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="touchBall2:">
+							<string key="name">touchBall2:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="touchBall3:">
+							<string key="name">touchBall3:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
 						<string key="ball1">UIButton</string>
 						<string key="ball2">UIButton</string>
