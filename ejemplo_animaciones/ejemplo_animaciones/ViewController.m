@@ -29,17 +29,20 @@
 }
 
 - (IBAction)touchBall1:(id)sender {
-    [UIView animateWithDuration:1.7 
-                          delay:1.0
-                        options:UIViewAnimationOptionCurveEaseInOut
+    continuarAnimacion=NO;
+    [UIView animateWithDuration:0.5
+                          delay:0
+                       
+                        options:UIViewAnimationOptionAutoreverse
+                        //options:UIViewAnimationOptionCurveEaseInOut
                      animations:^
      {
          
-         ball1.center=CGPointMake(ball1.center.x+80, ball1.center.y+80);
+         ball1.center=CGPointMake(ball1.center.x+200, ball1.center.y+300);
      }      
     completion:^(BOOL finished) 
     {
-     ball1.center=CGPointMake(50,50);
+     ball1.center=CGPointMake(130,130);
     
     }
      
@@ -52,20 +55,21 @@
 - (IBAction)touchBall2:(id)sender {
    continuarAnimacion=NO;
     [self ejecutarSonido];
-    [UIView animateWithDuration:1.7 
-                          delay:0.0
-                        options:UIViewAnimationOptionCurveEaseInOut
+    [UIView animateWithDuration:3 
+                          delay:0.5
+                        options:UIViewAnimationOptionAutoreverse
+                        //options:UIViewAnimationOptionCurveEaseInOut
                      animations:^
      {
          
          CGAffineTransform swingTransform = CGAffineTransformIdentity;
-         swingTransform = CGAffineTransformRotate(swingTransform, DegreesToRadians(90));
+         swingTransform = CGAffineTransformRotate(swingTransform, DegreesToRadians(40));
          ball2.transform = swingTransform;   
          ball2.center=CGPointMake(ball2.center.x-80, ball2.center.y-80);
      }      
                      completion:^(BOOL finished) 
      {
-         ball2.center=CGPointMake(150,150);
+         ball2.center=CGPointMake(200,200);
          CGAffineTransform swingTransform = CGAffineTransformIdentity;
           ball2.transform = swingTransform;   
      }
