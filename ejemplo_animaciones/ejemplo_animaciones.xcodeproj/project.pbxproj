@@ -15,11 +15,13 @@
 		5B5E820514EA500C007B26AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E820414EA500C007B26AE /* AppDelegate.m */; };
 		5B5E820814EA500C007B26AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E820714EA500C007B26AE /* ViewController.m */; };
 		5B5E820B14EA500C007B26AE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B5E820914EA500C007B26AE /* ViewController.xib */; };
+		5B60301814F454F1000B0763 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B60301714F454F1000B0763 /* QuartzCore.framework */; };
 		5B8C8F7C14EC342400960EFD /* b3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C8F7914EC342400960EFD /* b3.png */; };
 		5B8C8F7D14EC342400960EFD /* b2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C8F7A14EC342400960EFD /* b2.png */; };
 		5B8C8F7E14EC342400960EFD /* b1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C8F7B14EC342400960EFD /* b1.png */; };
 		5B8C8F8514EC3D5100960EFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8C8F8414EC3D5100960EFD /* AVFoundation.framework */; };
 		5B8C8F8714EC3DBB00960EFD /* click.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C8F8614EC3DBB00960EFD /* click.mp4 */; };
+		5BA3B78414F6936A00205763 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B78314F6936A00205763 /* bird.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,11 +38,13 @@
 		5B5E820614EA500C007B26AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5B5E820714EA500C007B26AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B5E820A14EA500C007B26AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5B60301714F454F1000B0763 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5B8C8F7914EC342400960EFD /* b3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b3.png; sourceTree = "<group>"; };
 		5B8C8F7A14EC342400960EFD /* b2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b2.png; sourceTree = "<group>"; };
 		5B8C8F7B14EC342400960EFD /* b1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b1.png; sourceTree = "<group>"; };
 		5B8C8F8414EC3D5100960EFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5B8C8F8614EC3DBB00960EFD /* click.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.mp4; sourceTree = "<group>"; };
+		5BA3B78314F6936A00205763 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B60301814F454F1000B0763 /* QuartzCore.framework in Frameworks */,
 				5B8C8F8514EC3D5100960EFD /* AVFoundation.framework in Frameworks */,
 				5B5E81F514EA500C007B26AE /* UIKit.framework in Frameworks */,
 				5B5E81F714EA500C007B26AE /* Foundation.framework in Frameworks */,
@@ -78,6 +83,7 @@
 		5B5E81F314EA500C007B26AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5B60301714F454F1000B0763 /* QuartzCore.framework */,
 				5B8C8F8414EC3D5100960EFD /* AVFoundation.framework */,
 				5B5E81F414EA500C007B26AE /* UIKit.framework */,
 				5B5E81F614EA500C007B26AE /* Foundation.framework */,
@@ -102,6 +108,7 @@
 		5B5E81FB14EA500C007B26AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BA3B78314F6936A00205763 /* bird.mp3 */,
 				5B8C8F8614EC3DBB00960EFD /* click.mp4 */,
 				5B5E821114EA5018007B26AE /* imgs */,
 				5B5E81FC14EA500C007B26AE /* ejemplo_animaciones-Info.plist */,
@@ -179,6 +186,7 @@
 				5B8C8F7D14EC342400960EFD /* b2.png in Resources */,
 				5B8C8F7E14EC342400960EFD /* b1.png in Resources */,
 				5B8C8F8714EC3DBB00960EFD /* click.mp4 in Resources */,
+				5BA3B78414F6936A00205763 /* bird.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
