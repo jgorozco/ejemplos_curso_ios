@@ -23,6 +23,7 @@
 		5B1736CC1504C7B800B5F497 /* vista11.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1736CA1504C7B800B5F497 /* vista11.xib */; };
 		5B1736D01504C7C800B5F497 /* vista12.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1736CE1504C7C800B5F497 /* vista12.m */; };
 		5B1736D11504C7C800B5F497 /* vista12.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1736CF1504C7C800B5F497 /* vista12.xib */; };
+		C676B3FD150EA570008EDF71 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C676B3FC150EA570008EDF71 /* bird.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		5B1736CD1504C7C800B5F497 /* vista12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vista12.h; sourceTree = "<group>"; };
 		5B1736CE1504C7C800B5F497 /* vista12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vista12.m; sourceTree = "<group>"; };
 		5B1736CF1504C7C800B5F497 /* vista12.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vista12.xib; sourceTree = "<group>"; };
+		C676B3FC150EA570008EDF71 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		5B1736A71504C6BB00B5F497 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C676B3FC150EA570008EDF71 /* bird.mp3 */,
 				5B1736A81504C6BB00B5F497 /* ejemploNavigationView-Info.plist */,
 				5B1736A91504C6BB00B5F497 /* InfoPlist.strings */,
 				5B1736AC1504C6BB00B5F497 /* main.m */,
@@ -188,6 +191,7 @@
 				5B1736C71504C73B00B5F497 /* vista1.xib in Resources */,
 				5B1736CC1504C7B800B5F497 /* vista11.xib in Resources */,
 				5B1736D11504C7C800B5F497 /* vista12.xib in Resources */,
+				C676B3FD150EA570008EDF71 /* bird.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
