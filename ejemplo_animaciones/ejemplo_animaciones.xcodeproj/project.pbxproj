@@ -22,6 +22,10 @@
 		5B8C8F8514EC3D5100960EFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8C8F8414EC3D5100960EFD /* AVFoundation.framework */; };
 		5B8C8F8714EC3DBB00960EFD /* click.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5B8C8F8614EC3DBB00960EFD /* click.mp4 */; };
 		5BA3B78414F6936A00205763 /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B78314F6936A00205763 /* bird.mp3 */; };
+		C676B334150B5137008EDF71 /* COW1.png in Resources */ = {isa = PBXBuildFile; fileRef = C676B333150B5137008EDF71 /* COW1.png */; };
+		C676B336150B5394008EDF71 /* birdblue.png in Resources */ = {isa = PBXBuildFile; fileRef = C676B335150B5394008EDF71 /* birdblue.png */; };
+		C676B338150B5399008EDF71 /* birdblueala.png in Resources */ = {isa = PBXBuildFile; fileRef = C676B337150B5399008EDF71 /* birdblueala.png */; };
+		C676B33A150BC532008EDF71 /* birdblue3.png in Resources */ = {isa = PBXBuildFile; fileRef = C676B339150BC532008EDF71 /* birdblue3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		5B8C8F8414EC3D5100960EFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5B8C8F8614EC3DBB00960EFD /* click.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.mp4; sourceTree = "<group>"; };
 		5BA3B78314F6936A00205763 /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
+		C676B333150B5137008EDF71 /* COW1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = COW1.png; sourceTree = "<group>"; };
+		C676B335150B5394008EDF71 /* birdblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdblue.png; sourceTree = "<group>"; };
+		C676B337150B5399008EDF71 /* birdblueala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdblueala.png; sourceTree = "<group>"; };
+		C676B339150BC532008EDF71 /* birdblue3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = birdblue3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,10 @@
 			children = (
 				5B8C8F7914EC342400960EFD /* b3.png */,
 				5B8C8F7A14EC342400960EFD /* b2.png */,
+				C676B339150BC532008EDF71 /* birdblue3.png */,
+				C676B337150B5399008EDF71 /* birdblueala.png */,
+				C676B335150B5394008EDF71 /* birdblue.png */,
+				C676B333150B5137008EDF71 /* COW1.png */,
 				5B8C8F7B14EC342400960EFD /* b1.png */,
 			);
 			name = imgs;
@@ -187,6 +199,10 @@
 				5B8C8F7E14EC342400960EFD /* b1.png in Resources */,
 				5B8C8F8714EC3DBB00960EFD /* click.mp4 in Resources */,
 				5BA3B78414F6936A00205763 /* bird.mp3 in Resources */,
+				C676B334150B5137008EDF71 /* COW1.png in Resources */,
+				C676B336150B5394008EDF71 /* birdblue.png in Resources */,
+				C676B338150B5399008EDF71 /* birdblueala.png in Resources */,
+				C676B33A150BC532008EDF71 /* birdblue3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,7 @@
 {
 ball_image.center=CGPointMake(-ball_image.bounds.size.width, 53);
     
-     [UIView animateWithDuration:4.0
+     [UIView animateWithDuration:6.0
                           delay:0
                         options:( UIViewAnimationOptionAllowUserInteraction | UIViewAnimationOptionAutoreverse)
                      animations:^
@@ -93,7 +93,7 @@ ball_image.center=CGPointMake(-ball_image.bounds.size.width, 53);
      }
      
      ];
-
+//---------------- animacion birdblue
 }
 
 -(IBAction)beginTouchBall2:(id) sender withEvent:(UIEvent *) event
@@ -138,11 +138,12 @@ ball_image.center=CGPointMake(-ball_image.bounds.size.width, 53);
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^
      {
+         //movimiento ala de pajaro
          
          CGAffineTransform swingTransform = CGAffineTransformIdentity;
-         swingTransform = CGAffineTransformRotate(swingTransform, DegreesToRadians(90));
+         swingTransform = CGAffineTransformRotate(swingTransform, DegreesToRadians(300));
          ball2.transform = swingTransform;   
-         ball2.center=CGPointMake(ball2.center.x-80, ball2.center.y-80);
+         ball2.center=CGPointMake(ball2.center.x-5, ball2.center.y-5);
      }      
                      completion:^(BOOL finished) 
      {
@@ -152,7 +153,7 @@ ball_image.center=CGPointMake(-ball_image.bounds.size.width, 53);
      }
      
      ];
-
+//-----fin animacion bird blue
     
 }
 
@@ -177,7 +178,7 @@ ball_image.center=CGPointMake(-ball_image.bounds.size.width, 53);
 //    NSLog(@"el valor de numeroVeces es:%d",numeroVeces);
 
     if (continuarAnimacion){
-        [UIView animateWithDuration:1.7 
+        [UIView animateWithDuration:0.7 
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^
